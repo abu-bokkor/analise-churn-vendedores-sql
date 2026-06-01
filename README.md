@@ -28,6 +28,11 @@ O script foi desenvolvido seguindo um raciocínio analítico sequencial:
 5. Classificação primária do status (Ativo/Inativo) baseada no faturamento do mês.
 6. Contagem de repetições contínuas para detalhar a profundidade do Churn.
 
+## 📊 Resultado da Query
+Abaixo, uma amostra do resultado final gerado pelo script, mostrando a linha do tempo do vendedor e sua classificação de retenção mês a mês:
+
+![Resultado da Query de Churn](resultado_query.jpg)
+
 ## 💡 Aplicações e Insights para o Negócio
 Com o resultado gerado por esta query, um time de Dados ou Business Intelligence pode facilmente:
 * Construir dashboards dinâmicos (no Power BI, por exemplo) para acompanhar a taxa de retenção e a evolução do Churn mensal.
