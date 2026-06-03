@@ -38,3 +38,17 @@ Com o resultado gerado por esta query, um time de Dados ou Business Intelligence
 * Construir dashboards dinâmicos (no Power BI, por exemplo) para acompanhar a taxa de retenção e a evolução do Churn mensal.
 * Fornecer listas automatizadas de vendedores em "Churn 1" para o time de Marketing disparar e-mails de reengajamento rápidos.
 * Avaliar a eficácia das campanhas ao medir a porcentagem de vendedores que mudam do status de "Churn" para "Recuperado".
+
+## 📊 Visualização de Dados e Business Intelligence (Power BI)
+Para tornar esta análise técnica acessível à tomada de decisão de negócio, importei os dados tratados via SQL para o **Power BI** e desenvolvi um dashboard gerencial interativo. 
+
+O painel permite que a diretoria acompanhe a saúde do marketplace de forma simples e intuitiva, destacando:
+* **Média Mensal da Taxa de Churn:** O ritmo médio em que a plataforma perde vendedores.
+* **Volume Absoluto de Novos Churns:** A quantidade exata de pessoas que deixaram de vender mês a mês.
+* **Vendedores Ativos & Impacto Financeiro:** Visão de quantos parceiros seguraram a operação e o faturamento total gerado.
+
+*Nota de Engenharia de Dados: Durante a modelagem, identifiquei e tratei uma anomalia matemática de "efeito de borda" no último mês da base de dados (Setembro), aplicando um filtro estratégico para manter o dashboard 100% fiel à realidade do negócio.*
+
+Clasifiquei o visual utilizando cores semânticas (vermelho para pontos de atenção/Churn) e adicionei controles deslizantes para facilitar a navegação do usuário.
+
+![Dashboard de Churn e Retenção no Power BI](dashboard_powerbi.jpg)
