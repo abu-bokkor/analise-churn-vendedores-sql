@@ -1,4 +1,4 @@
-# Análise de Retenção e Churn de Vendedores (Sellers) com SQL
+# Análise de Retenção e Churn de Vendedores (Sellers) com SQL e Power BI
 
 ## 📌 Contexto do Projeto
 Em plataformas de e-commerce e marketplaces, a saúde do negócio não depende apenas de atrair novos vendedores, mas de mantê-los ativos e vendendo. Este projeto tem como objetivo mapear o ciclo de vida de cada vendedor, classificando seu status mês a mês para identificar padrões de retenção e evasão (Churn).
